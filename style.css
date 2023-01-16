@@ -1,0 +1,66 @@
+*
+{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: azure;
+
+}
+body
+{
+    background-image:url("https://wallpaper.dog/large/20567153.jpg");
+    background-size: cover;
+    
+}
+.titre
+{
+    background: rgb(4,15,2);
+    background: linear-gradient(90deg, rgba(4,15,2,1) 24%, rgba(175,6,38,1) 72%);
+    color: white; /* Le texte de la page sera blanc */
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    padding:50px;
+    margin: 0;
+    
+}
+.logo 
+{
+   
+    position:absolute;
+    top:20px;
+    left:0;
+  
+    
+   
+   
+}
+nav
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background: rgb(0, 6, 8);
+    flex-wrap: nowrap;
+    margin: 0;
+   
+}
+
+a{
+    text-decoration: none;
+
+}
+.full{
+    background-color: rgb(197, 47, 6);
+    width: 80px;
+}
+.mark{
+    background-color: rgb(231, 30, 30);
+    width: 80px;
+}
+.info{
+    background-color: rgb(206, 115, 40);
+    width: 80px;
+}
+p
+{
+    font-size: 20px;
+    padding:10px;
+}
